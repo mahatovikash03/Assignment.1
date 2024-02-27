@@ -1,8 +1,8 @@
 //Q1. How can you output “Physics” and “Wallah” in two different lines in C++?
-#include<isostream>
-using namespace.std;
+#include<iostream>
+using namespace std;
 int main(){
 cout<<"physics"<<endl;
 cout<<"wallah"<<endl;
-return o;
+return 0;
 }
