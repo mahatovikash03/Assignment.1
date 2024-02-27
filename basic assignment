@@ -23,9 +23,9 @@ resturn 0;
 }
 
 // Q3. How much space does the following data types take?
-.int 
-.bool
-.float
+.int = 4 byte
+.bool = 4 byte
+.float = 4 byte
 
 
 // Q4. What is the output of this program?
@@ -35,7 +35,7 @@ int b = 5;
 a++, b--;
 cout << ++a << " " << b--;
 }
-
+//  output= 6 4
 
 // Q5. Write a program to find the circumference of a circle with radius 10 in C++.
 
@@ -48,14 +48,15 @@ int radius = 2*3.14*r;
 cout<<radius:
 return 0;
 }
+output= 12
 
 // Q6. How many of these can be a variable name ?
 
 .01Pwskills
-. _FLOAT
-. intÚ
-. FLOATÚ
-. You will succeed
+. _FLOAT = valid variable name
+. int = valid variable name
+. FLOAT = valid variable name
+. You will succeed = Not a valid variable name
 
 
 
